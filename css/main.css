@@ -1,0 +1,52 @@
+body {
+	font-size: 24px;
+	font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+	text-shadow: 10px 10px 5px black;
+	color: blue;
+	font-weight: 400;
+	width: 500px;
+	text-align: center;
+
+}
+
+ul {
+	width: 500px;
+}
+
+ul li:nth-child(1) {
+	text-decoration: line-through;
+	font-style: italic;
+}
+
+ul li:nth-child(2) {
+	font-weight: 700;
+	color: blueviolet;
+	text-decoration: underline;
+}
+
+ul li:nth-child(3) {
+	text-align: center;
+}
+
+ol a {
+	color: red;
+	text-decoration: none;
+
+}
+
+ol {
+	width: 250px;
+	text-align: right;
+
+}
+
+q {
+	opacity: 0.5;
+}
+
+p {
+	font-weight: 600;
+}
